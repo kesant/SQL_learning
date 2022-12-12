@@ -1,0 +1,37 @@
+#ejercicio 1
+CREATE DATABASE VET;
+USE VET;
+# crear una tabla de mascotas , campos : id , nombre , id_dueno , sevicio
+CREATE TABLE MASCOTAS (
+ID INT NOT NULL,
+NOMBRE VARCHAR(20),
+ID_DUENO  INT NOT NULL,
+SERVICIO VARCHAR(20)
+);
+
+#crear tablas personas , campos : id , nombre, apellido , id_dueno , cod_zip, tlf 
+CREATE TABLE PERSONAS(
+ID INT NOT NULL,
+NOMBRE VARCHAR(20),
+APELLIDO VARCHAR (20),
+ID_DUENO INT NOT NULL,
+COD_ZIP INT NOT NULL,
+TLF INT 
+);
+
+#crear tabla direcciones , campos : zip , nombre_zona, ruta
+CREATE TABLE DIRECCIONES (
+ZIP INT NOT NULL ,
+NOMBRE_ZONA VARCHAR(8),
+RUTA VARCHAR(20)
+);
+
+DESC MASCOTAS ;
+DESC PERSONA;
+DESC DIRECCIONES ;
+
+#EJERCICIO 1
+#AGREGAR PK AL CAMPO ID EN MASCOTAS
+ALTER TABLE MASCOTAS
+ADD PRIMARY KEY (ID);
+
