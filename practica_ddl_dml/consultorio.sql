@@ -56,6 +56,14 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
+-- Table `consultorio`.`table3`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `consultorio`.`table3` (
+)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
 -- Table `consultorio`.`turno`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `consultorio`.`turno` (
