@@ -1,0 +1,2 @@
+-- Consultando la base de datos de e-Market
+-- Queremos tener un listado de todas las categorías.
